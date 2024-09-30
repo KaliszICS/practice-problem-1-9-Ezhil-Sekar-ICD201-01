@@ -13,9 +13,7 @@ def q2():
 def q3(): 
   #Write Assignment code here
   user = input("Input a word that is at least 5 letters long: ")
-  char_at_3 = user[3:4] 
-  char_at_5 = user[5:6]  
-  print(char_at_3, char_at_5)
+  print(user[1:4])
 
 def q4(): 
   #Write Assignment code here
@@ -31,9 +29,10 @@ def q5():
 
 #Do not alter the following code
 #Comment out the following code when running your tests
-
+'''
 q1()
 q2()
 q3()
 q4()
 q5()
+'''
